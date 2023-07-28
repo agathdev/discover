@@ -26,6 +26,7 @@
 
 body {
   background-image: var(--bg-url);
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top center; /*primeira posição eixo Y e segunda eixo x*/
   background-size: cover; /*cobre todo o espaço disponível. Se usar o contain, ele cobre o espaço que foi definido na altura e na largura*/
@@ -157,4 +158,14 @@ footer {
   align-content: center;
   text-align: center;
   font-size: 14px;
+}
+
+/*media queries*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
