@@ -38,7 +38,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px; /*margem superior 56 pixels, divide as bordas esquerda e direita por igual, centralizando o objeto e margem inferior 0 pixel.*/
   padding: 0 24px;
 }
